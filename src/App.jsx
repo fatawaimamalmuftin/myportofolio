@@ -170,45 +170,45 @@ function App() {
 
         {/* Mobile Menu */}
         {menu && (
-          <div className="glass mx-auto mt-2 max-w-6xl rounded-2xl p-3 md:hidden">
+          <div className="glass mx-auto mt-2 max-w-6xl rounded-2xl border border-purple-400/30 bg-[#21182b] p-3 md:hidden">
             <button
               onClick={() => goTo("home")}
-              className="block w-full rounded-xl px-4 py-3 text-left text-white/60 hover:bg-white/10 hover:text-white"
+              className="block w-full rounded-xl px-4 py-3 text-left text-white hover:bg-purple-500/20"
             >
               Home
             </button>
 
             <button
               onClick={() => goTo("about")}
-              className="block w-full rounded-xl px-4 py-3 text-left text-white/60 hover:bg-white/10 hover:text-white"
+              className="block w-full rounded-xl px-4 py-3 text-left text-white hover:bg-purple-500/20"
             >
               About
             </button>
 
             <button
               onClick={() => goTo("skills")}
-              className="block w-full rounded-xl px-4 py-3 text-left text-white/60 hover:bg-white/10 hover:text-white"
+              className="block w-full rounded-xl px-4 py-3 text-left text-white hover:bg-purple-500/20"
             >
               Skills
             </button>
 
             <button
               onClick={() => goTo("projects")}
-              className="block w-full rounded-xl px-4 py-3 text-left text-white/60 hover:bg-white/10 hover:text-white"
+              className="block w-full rounded-xl px-4 py-3 text-left text-white hover:bg-purple-500/20"
             >
               Projects
             </button>
 
             <button
               onClick={() => goTo("experience")}
-              className="block w-full rounded-xl px-4 py-3 text-left text-white/60 hover:bg-white/10 hover:text-white"
+              className="block w-full rounded-xl px-4 py-3 text-left text-white hover:bg-purple-500/20"
             >
               Experience
             </button>
 
             <button
               onClick={() => goTo("contact")}
-              className="mt-1 w-full rounded-xl bg-purple-500/20 px-4 py-3 text-left text-purple-200"
+              className="mt-1 w-full rounded-xl bg-purple-500 px-4 py-3 text-left font-medium text-white hover:bg-purple-400"
             >
               Contact Me
             </button>
