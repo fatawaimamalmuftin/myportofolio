@@ -110,7 +110,7 @@ function App() {
             onClick={() => goTo("home")}
             className="font-display text-xl font-semibold"
           >
-            Fatawa<span className="text-purple-400">.</span>
+            Fatawa Imam Al Muftin<span className="text-purple-400">.</span>
           </button>
 
           {/* Desktop Menu */}
@@ -234,7 +234,7 @@ function App() {
             </p>
 
             <h1 className="font-display text-5xl leading-[1.1] sm:text-6xl lg:text-7xl">
-              Fatawa
+              Muftin
               <span className="block bg-linear-to-r from-purple-300 via-violet-400 to-fuchsia-300 bg-clip-text text-transparent">
                 Full Stack
               </span>
